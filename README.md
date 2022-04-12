@@ -1,4 +1,4 @@
-#substr_position() - PHP 7.1+
+# substr_position() - PHP 7.1+
 
 ## Installation
 
