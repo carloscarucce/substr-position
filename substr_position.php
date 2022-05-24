@@ -18,7 +18,7 @@ if (!function_exists('substr_position')) {
         }
 
         if (!is_null($maxSize)) {
-            $original = substr($original, 0, $maxSize);
+            $original = mb_substr($original, 0, $maxSize);
         }
 
         return $original;
